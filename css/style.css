@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Dosis:wght@200..800&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Kaushan+Script&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Titan+One&display=swap');
+
+
+
+:root{
+	--color-header:#181818;
+	--color-body:#181818;
+	--color-background: #000000;
+	--color-letra-oscura:#ffffff;
+	--color-letra-clara:#ff751f;
+	--color-cuadros:#181818;
+	--color-titulos: #3A071F;
+	--color-menos-claro:#181818;
+	--color-footer:#181818;
+}
+
+
+h1,h2,h4{
+	font-family: "Titan One", sans-serif;
+}
+
+p{
+	font-family: "Lora", serif;
+}
+
+
+header img{
+	width: 50%
+}
+
+header{
+	box-shadow:  0 12px 15px -10px rgba(255, 255, 255, 0.70);
+	background-color: var(--color-header);
+	
+}
+
+#fotos img{
+	width: 100%;
+	height: 75%;
+	object-fit: cover;
+}
+body{
+	background-color: var(--color-background);
+	font-style: italic;
+	color: var(--color-letra-oscura);
+}
+
+#hero{
+	text-align: center;
+	background-image: url("../img/Black White Photo And Of A Camera Backgrounds _ JPG Free Download - Pikbest.jpeg");
+	width: 100%;
+	height: 100%;
+	padding: 10%;
+	margin: 5% 0 5% 0;
+	background-color: rgba(0, 0, 0, 0.70);
+	background-blend-mode: multiply;
+	color: #FFFFFF;
+	background-size: cover;
+	background-position: center;
+}
+
+#resumen{
+	font-size: 110%;
+	margin-bottom: 10%
+}
+
+
+.caja{
+	background-image: url("../img/fresitas.png");
+	background-color: rgba(27,2,7,0.77);
+	background-blend-mode: multiply;
+	padding: 4%;
+	margin-bottom: 5%;
+	border-radius: 30px;
+}
+
+h2{
+	text-align: center;
+	color: var(--color-menos-claro);
+	margin-bottom: 5%
+}
+
+.caja p{
+	color: var(--color-letra-clara);
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+#aprendizaje img{
+	border-radius: 30px;
+}
+
+
+.info{
+	margin-top: 20%;
+}
+
+
+#app{
+	background-image: url( "../img/dw.jpg");
+	padding: 20%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(62,14,46,0.59);
+	background-blend-mode: multiply;
+	color: var(--color-letra-clara);
+	margin-bottom: 10%
+}
+
+footer{
+	background-color: var(--color-footer);
+	padding: 4%;
+	text-align: center;
+	font-size: 30px;
+	box-shadow:  0 -12px 15px -10px rgba(255, 255, 255, 0.70);
+}
+
+footer a{
+	color: var(--color-letra-oscura);
+}
+
+footer a:hover{
+	color: var(--color-letra-clara);
+}
+
+footer .container{
+	width: 70%
+}
+
+footer i{
+	margin-left: 30px;
+}
+
+
+
+.brands-carousel img{
+	width: inherit !important;
+	display: inline;
+}
+
+#trabajo img{
+	border-radius: 20px;
+}
+
+
+
+#ejemplos img{
+	border-radius: 20px;
+	margin-bottom: 10%;
+}
+
+#ejemplos{
+	margin-bottom: 5%;
+}
+
+
+
+
+#encanto{
+	color: var(--color-letra-clara);
+
+}
+
+#encanto h4{
+	margin-left: 33%
+}
+
+#contacto{
+	width: 80%;
+	margin-left: 9%;
+	margin-bottom: 5%
+}
+
+
+
+#info img{
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
